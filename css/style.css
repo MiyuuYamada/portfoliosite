@@ -20,11 +20,20 @@ header {
   box-shadow: 0 4px 0.3125rem rgba(31, 31, 31, 0.3);
 }
 
-h1 {
+.images {
   position: absolute;
   top: 0.5rem;
-  left: 1.5rem;
+  left: 2rem;
+  
+}
+
+
+h1 {
+  position: absolute;
+  top: 1.5rem;
+  left: 7em;
   font-size: 1rem;
+  color: #FFF;
 
 }
 
