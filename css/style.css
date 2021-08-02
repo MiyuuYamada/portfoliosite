@@ -5,91 +5,102 @@
   list-style-type: none;
 }
 
-#container {
-  width: 100%;
-  max-width: 100%;
-  margin: 2rem auto;
-  background: rgb(255, 255, 255);
-  overflow: hidden;
-}
 
-header {
-  position: relative;
-  background-color: rgb(115, 159, 241);
-  height: 6rem;
-  box-shadow: 0 4px 0.3125rem rgba(31, 31, 31, 0.3);
-}
-
-.images {
-  position: absolute;
-  top: 0.5rem;
-  left: 2rem;
-  
+/*　フォント指定 */
+body {
+  font-family: "ヒラギノ角ゴ ProN","メイリオ","Helvetica", sans-serif;
+  font-weight: 300;
 }
 
 
-h1 {
-  position: absolute;
-  top: 1.5rem;
-  left: 7em;
-  font-size: 1rem;
-  color: #FFF;
+  #container {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+  }
 
-}
+  header {
+    position: relative;
+    background-color: rgb(115, 159, 241);
+    height: 6rem;
+    box-shadow: 0 4px 0.3125rem rgba(31, 31, 31, 0.3);
+  }
 
-.navButton {
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
-}
+  .images {
+    position: absolute;
+    top: 0.5rem;
+    left: 2rem;
+    
+  }
 
-.navButton a {
-  color: #FFF;
-  font-size: 1.25rem;
-}
 
-nav {
-  position: relative;
-}
+  h1 {
+    position: absolute;
+    top: 1.5rem;
+    left: 7em;
+    font-size: 1rem;
+    color: #FFF;
 
-.menu {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgb(185, 209, 255);
-  box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
-}
+  }
 
-.menu li {
-  height: 3rem;
-  border-bottom: solid 1px #AAA;
-}
+  .navButton {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
 
-.menu a {
-  display: block;
-  padding: 0.75rem;
-  text-align: center;
-  color: #FFF;
-}
+  .navButton a {
+    color: #FFF;
+    font-size: 1.25rem;
+  }
 
-.menu a:hover {
-  background-color: rgb(255, 234, 47);
-}
+  nav {
+    position: relative;
+  }
 
-article {
-  padding: 6rem;
-}
+  .menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(185, 209, 255);
+    box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
+  }
 
-article p {
-  text-align: justify;
-  color: #555;
-}
+  .menu li {
+    height: 3rem;
+    border-bottom: solid 1px #AAA;
+  }
 
-footer {
-  background-color: rgb(115, 159, 241);
-  padding: 1rem;
-  text-align: center;
-  font-size: 0.8rem;
-  color: white;
-}
+  .menu a {
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    color: #FFF;
+  }
+
+  .menu a:hover {
+    background-color: rgb(255, 234, 47);
+  }
+
+  article{
+    padding: 4rem;
+  }
+
+
+  section {
+   text-align: center;
+   padding: 5rem;
+  }
+
+
+  footer {
+    background-color: rgb(115, 159, 241);
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: white;
+  }
+
